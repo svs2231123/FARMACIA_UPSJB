@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Schema;
     {
     public function up(): void
     {
-        Schema::create('medicine', function (Blueprint $table) {
+        Schema::create('medication', function (Blueprint $table) {
             $table->id();
             $table->foreignId('category_id')->constrained()->restrictOnDelete();
             $table->string('name', 120);
@@ -21,6 +21,6 @@ use Illuminate\Support\Facades\Schema;
     }
     public function down(): void
         {
-            Schema::dropIfExists('medicine');
+            Schema::dropIfExists('medication');
             }
         };
