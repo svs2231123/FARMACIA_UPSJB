@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="es" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-          content="FARM SJP - Sistema de Venta de Medicamentos">
-    <title>FARM SJP | Sistema de Venta de Medicamentos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="San Juan – Sistema de Venta de Medicamentos">
+  <title>FARM SJB | Sistema de Venta de Medicamentos</title>
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 </head>
+
 <body>
 
 <div id="app-wrapper" class="d-flex">
