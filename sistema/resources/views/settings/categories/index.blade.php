@@ -47,7 +47,7 @@ Total de registros encontrados: {{ $categories->count() }}
 </tr>
 </thead>
 <tbody>
-@php $contador = 1; @endphp {{-- número de fila --}}
+@php $contador =1; @endphp {{-- número de fila --}}
 {{-- Una fila por categoría --}}
 @foreach ($categories as $category)
 <tr>
